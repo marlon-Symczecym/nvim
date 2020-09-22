@@ -28,12 +28,14 @@
     "css",
     "markdown",
     "javascript",
+    "typescript",
     "graphql",
     "html",
     "yaml",
     "json",
     "python",
-    "java"
+    "java",
+    "vim"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -54,7 +56,8 @@
   // emmet
   "emmet.includeLanguages": {
     "vue-html": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
   },
 
   // explorer

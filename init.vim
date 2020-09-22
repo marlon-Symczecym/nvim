@@ -1,9 +1,7 @@
-"    ____      _ __        _
-"   /  _/___  (_) /__   __(_)___ ___
-"   / // __ \/ / __/ | / / / __ `__ \
-" _/ // / / / / /__| |/ / / / / / / /
-"/___/_/ /_/_/\__(_)___/_/_/ /_/ /_/
-
+"   __  ______   ___  __   ____  _  __
+"  /  |/  / _ | / _ \/ /  / __ \/ |/ /
+" / /|_/ / __ |/ , _/ /__/ /_/ /    / 
+"/_/  /_/_/ |_/_/|_/____/\____/_/|_/
 
 " General Settings
 if !exists('g:vscode')
@@ -24,7 +22,8 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/nvcode.vim
+  source $HOME/.config/nvim/themes/ayu.vim
+  source $HOME/.config/nvim/themes/indentline.vim
   source $HOME/.config/nvim/themes/airline.vim
 
   " Plugin Configuration

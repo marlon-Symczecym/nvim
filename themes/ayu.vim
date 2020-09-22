@@ -1,11 +1,11 @@
 hi Comment cterm=italic
-let g:nvcode_hide_endofbuffer=1
-let g:nvcode_terminal_italics=1
-let g:nvcode_termcolors=256
-
 syntax on
-colorscheme nvcode 
-
+let g:onehalf_termcolors=256
+let g:onehalf_terminal_italics=1
+let ayucolor="light"
+colorscheme ayu 
+let g:airline_theme="ayu"
+let g:spaceline_colorscheme="one"
 
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))

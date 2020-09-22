@@ -120,25 +120,25 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     Plug 'moll/vim-bbye'
     " Plug 'yuezk/vim-js'
-    " Plug 'maxmellon/vim-jsx-pretty'
-    " Plug 'jelera/vim-javascript-syntax'
+     Plug 'maxmellon/vim-jsx-pretty'
+     Plug 'jelera/vim-javascript-syntax'
     " Plugin Graveyard
 
     " jsx syntax support
     " Typescript syntax
-    " Plug 'HerringtonDarkholme/yats.vim'
+     Plug 'HerringtonDarkholme/yats.vim'
     " Multiple Cursors
     " Plug 'terryma/vim-multiple-cursors'
-    " Plug 'kaicataldo/material.vim'
-    " Plug 'NLKNguyen/papercolor-theme'
-    " Plug 'tomasiser/vim-code-dark'
+     Plug 'kaicataldo/material.vim'
+     Plug 'NLKNguyen/papercolor-theme'
+     Plug 'tomasiser/vim-code-dark'
     " Vim Wiki
     " Plug 'https://github.com/vimwiki/vimwiki.git'
     " Better Comments
     " Plug 'jbgutierrez/vim-better-comments'
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
-    " Plug 'hardcoreplayers/spaceline.vim'
+     Plug 'hardcoreplayers/spaceline.vim'
     " Plug 'vim-airline/vim-airline-themes'
     " Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     " Plug 'arcticicestudio/nord-vim'
@@ -148,10 +148,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Making stuff
     " Plug 'neomake/neomake'
     " Plug 'mhinz/vim-signify'
-    " Plug 'easymotion/vim-easymotion'
+     Plug 'easymotion/vim-easymotion'
     " Plug 'preservim/nerdcommenter'
     " Plug 'brooth/far.vim'
     " Plug 'atishay/far.vim'
+
+    " MARLON CONFIG
+    Plug 'joshdick/onedark.vim'  
+    Plug 'morhetz/gruvbox'
+    Plug 'Yggdroot/indentLine'
+    Plug 'ayu-theme/ayu-vim'
   endif
 
 call plug#end()
