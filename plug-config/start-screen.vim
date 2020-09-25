@@ -31,7 +31,10 @@ function! StartifyEntryFormat()
 let g:startify_bookmarks = [
             \ { 'c': '~/.i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
+            \ { 's': '~/.config/nvim/plug-config/start-screen.vim' },
             \ { 'z': '~/.zshrc' },
+            \ { 'd': '~/Desktop' }
             \ ]
+
 
 let g:startify_enable_special = 0

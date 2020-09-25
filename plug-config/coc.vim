@@ -23,8 +23,8 @@
     \ 'coc-vimlsp',
     \ 'coc-xml',
     \ 'coc-yank',
-    \ 'coc-json',
     \ 'coc-marketplace',
+    \ 'coc-json',
     \ ]
     " \ 'coc-tabnine',
     " \ 'coc-highlight',

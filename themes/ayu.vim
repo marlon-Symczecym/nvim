@@ -5,7 +5,8 @@ let g:onehalf_terminal_italics=1
 let ayucolor="light"
 colorscheme ayu 
 let g:airline_theme="ayu"
-let g:spaceline_colorscheme="one"
+let g:lightline_theme="light"
+let g:spaceline_colorscheme="marlon"
 
 " checks if your terminal has 24-bit color support
 if (has("termguicolors"))

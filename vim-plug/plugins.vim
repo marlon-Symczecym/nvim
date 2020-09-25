@@ -21,7 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Useful for React Commenting 
     Plug 'suy/vim-context-commentstring'
     " highlight all matches under cursor
-    " Plug 'RRethy/vim-illuminate'
+    Plug 'RRethy/vim-illuminate'
 
   if exists('g:vscode')
     " Easy motion for VSCode
@@ -82,7 +82,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " Debugging
-    " Plug 'puremourning/vimspector'
+    Plug 'puremourning/vimspector'
     " Better tabline
     Plug 'mg979/vim-xtabline'
     " undo time travel
@@ -93,7 +93,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " live server
-    Plug 'turbio/bracey.vim'
+    " Plug 'turbio/bracey.vim'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
     " async tasks
@@ -109,10 +109,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Colorizer
     Plug 'norcalli/nvim-colorizer.lua'
     " Rainbow brackets
-    " Plug 'luochen1990/rainbow'
+     Plug 'luochen1990/rainbow'
     " Async Linting Engine
     " TODO make sure to add ale config before plugin
-    " Plug 'dense-analysis/ale'
+    Plug 'dense-analysis/ale'
     " Better Whitespace
     Plug 'ntpeters/vim-better-whitespace'
     " Multiple Cursors
@@ -128,7 +128,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Typescript syntax
      Plug 'HerringtonDarkholme/yats.vim'
     " Multiple Cursors
-    " Plug 'terryma/vim-multiple-cursors'
+    Plug 'terryma/vim-multiple-cursors'
      Plug 'kaicataldo/material.vim'
      Plug 'NLKNguyen/papercolor-theme'
      Plug 'tomasiser/vim-code-dark'

@@ -22,14 +22,13 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/ayu.vim
+  source $HOME/.config/nvim/themes/onedark.vim
   source $HOME/.config/nvim/themes/indentline.vim
   source $HOME/.config/nvim/themes/airline.vim
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
   source $HOME/.config/nvim/plug-config/vim-commentary.vim
-  " source $HOME/.config/nvim/plug-config/rainbow.vim
   source $HOME/.config/nvim/plug-config/rnvimr.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
   source $HOME/.config/nvim/plug-config/fzf.vim
@@ -44,7 +43,7 @@ else
   source $HOME/.config/nvim/plug-config/git-messenger.vim
   source $HOME/.config/nvim/plug-config/closetags.vim
   source $HOME/.config/nvim/plug-config/floaterm.vim
-  " source $HOME/.config/nvim/plug-config/vista.vim
+  source $HOME/.config/nvim/plug-config/vista.vim
   source $HOME/.config/nvim/plug-config/xtabline.vim
   source $HOME/.config/nvim/plug-config/far.vim
   source $HOME/.config/nvim/plug-config/tagalong.vim

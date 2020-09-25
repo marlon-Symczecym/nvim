@@ -34,4 +34,5 @@ let g:xtabline_settings.icons = {
       \'palette': '🎨',
       \'lens': '🔍',
       \'flag': '🏁',
+      \'css': ''
       \}
