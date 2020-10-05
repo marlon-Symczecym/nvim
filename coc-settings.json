@@ -31,6 +31,7 @@
     "typescript",
     "graphql",
     "html",
+    "htmldjango",
     "yaml",
     "python",
     "java",
@@ -54,7 +55,8 @@
 
   // emmet
   "emmet.includeLanguages": {
-    "vue-html": "html",
+    "htmldjango": "vue-html",
+    "vue-html": "htmldjango",
     "javascript": "javascriptreact"
   },
 

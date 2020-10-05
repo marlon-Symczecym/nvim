@@ -1,10 +1,9 @@
 hi Comment cterm=italic
-let g:nvcode_hide_endofbuffer=1
-let g:nvcode_terminal_italics=1
-let g:nvcode_termcolors=256
-
 syntax on
-colorscheme nvcode 
+colorscheme neodark
+let g:neodark#background = '#202020'
+let g:neodark#solid_vertsplit = 1 " default: 0
+let g:lightline_colorscheme = 'neodark'
 
 
 " checks if your terminal has 24-bit color support

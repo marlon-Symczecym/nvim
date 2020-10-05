@@ -1,5 +1,6 @@
 " Basic Key Mappings
 
+
 imap <C-h> <C-w>h
 imap <C-j> <C-w>j
 imap <C-k> <C-w>k
@@ -30,8 +31,9 @@ else
   inoremap kj <Esc>
 
   " Easy CAPS
-  " inoremap <c-u> <ESC>viwUi
+   " inoremap <c-u> <ESC>viwUi
   " nnoremap <c-u> viwU<Esc>
+  inoremap <CAPS> <ESC>
 
   " TAB in general mode will move to text buffer
   nnoremap <silent> <TAB> :bnext<CR>
@@ -75,9 +77,12 @@ else
   nnoremap <silent> <M-k>    :resize +2<CR>
   nnoremap <silent> <M-h>    :vertical resize -2<CR>
   nnoremap <silent> <M-l>    :vertical resize +2<CR>
-
 endif
 
 " Better nav for omnicomplete
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
+
+" CAPS LOCK
+au VimEnter * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
+au VimLeave * !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'

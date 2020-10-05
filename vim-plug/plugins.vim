@@ -93,7 +93,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " live server
-    " Plug 'turbio/bracey.vim'
+     Plug 'turbio/bracey.vim'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
     " async tasks
@@ -138,7 +138,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Plug 'jbgutierrez/vim-better-comments'
     " Echo doc
     " Plug 'Shougo/echodoc.vim'
-     Plug 'hardcoreplayers/spaceline.vim'
+     " Plug 'hardcoreplayers/spaceline.vim'
     " Plug 'vim-airline/vim-airline-themes'
     " Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     " Plug 'arcticicestudio/nord-vim'
@@ -158,6 +158,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'morhetz/gruvbox'
     Plug 'Yggdroot/indentLine'
     Plug 'ayu-theme/ayu-vim'
+    Plug 'flrnd/candid.vim'
+    Plug 'KeitaNakamura/neodark.vim'
+    Plug 'rainglow/vim'
+
   endif
 
 call plug#end()
