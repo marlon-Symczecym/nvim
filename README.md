@@ -1,15 +1,4 @@
-# NVCode
-
-![NVCode pic](./utils/images/nvim.png)
-
-## Install in one command
-
-The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
-
-This script only supports Mac, Ubuntu and Arch
-
-```
-bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/nvim/master/utils/install.sh)
+# Modelo pego do ChristianChiarulli
 ```
 
 ## Install Neovim
@@ -39,7 +28,7 @@ bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/nvim/master/
 ## Clone this repo into your config
 
 ```
-git clone https://github.com/ChristianChiarulli/nvim.git ~/.config/nvim
+git clone https://https://github.com/marlon-Symczecym/nvim ~/.config/nvim
 ```
 
 ## Install python & node support
@@ -105,114 +94,3 @@ let g:node_host_prog = expand("~/.nvm/versions/node/v12.16.1/bin/neovim-node-hos
 
 Explanations and installation instruction can be found on my blog
 
-## Language Servers
-
-Since CoC doesn't support all languages in there extensions
-I recommend installing some language servers from scratch
-and adding them to your `coc-settings.json` file
-
-Example:
-
-- bash
-
-  `npm i -g bash-language-server`
-
-  ```
-  "languageserver": {
-  "bash": {
-    "command": "bash-language-server",
-    "args": ["start"],
-    "filetypes": ["sh"],
-    "ignoredRootPaths": ["~"]
-    }
-  }
-  ```
-
-## For FAR to work
-
-```
-:UpdateRemotePlugins
-```
-
-## TabNine
-
-To use TabNine enter the following in a buffer:
-
-```
-TabNine::config
-```
-
-**NOTE** This extension can take up a ton of memory
-
-## Vim Gists
-
-To use **vim-gists** you will need to configure the following:
-
-```
-git config --global github.user <username>
-```
-
-## VSCodium & Neo Vim Extension
-
-[VSCodium](https://github.com/VSCodium/vscodium) contains build files to generate free release binaries of Microsoft's VS Code.
-
-You can install it on multiple platforms:
-
-- Mac
-
-  ```
-  brew cask install vscodium
-  ```
-
-- Arch
-
-  ```
-  yay -s vscodium-bin
-  ```
-
-- Snap
-
-  ```
-  snap install codium
-  ```
-
-[The Neo Vim Extension](https://github.com/asvetliakov/vscode-neovim) is available in the VSCode marketplace
-
-I recommend using this alongside the VSCode `which-key` extension
-
-Along with some of my config files you can find in `utils/vscode_config`
-
-## TODO
-
-- Better Documentation
-- Improve VSCode which-key config
-
-## CoC extensions to check out
-
-- coc-fzf
-- coc-stylelintplus
-- coc-floaterm
-- coc-actions
-- coc-bookmark
-
-## 0.5
-
-- native lsp
-- treesitter
-
-## LOW PRIORITY TODO
-
-If anyone reading this has any suggestions about implementing any of the following I will accept a PR, but these are not priority.
-
-- ale
-- multiple cursors
-- markdown table
-- spaceline (add colorscheme for mach2)
-- tpope/vim-dadbod
-- neovide
-- People asked about vimwiki I kinda hate it but maybe I'll add it
-- vimspector this is included but I don't plan on using it much
-  - can be used with jdb, pdb, gdb, etc...
-- later manually link pylance
-- resize with arrows in addition to meta
-- how to support meta key on for macOS?
