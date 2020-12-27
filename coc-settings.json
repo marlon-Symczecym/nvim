@@ -35,7 +35,8 @@
     "yaml",
     "python",
     "java",
-    "json"
+    "json",
+    "elixir"
   ],
   "coc.preferences.hoverTarget": "float",
 

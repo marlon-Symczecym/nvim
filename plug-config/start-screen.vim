@@ -29,11 +29,12 @@ function! StartifyEntryFormat()
     endfunction
 
 let g:startify_bookmarks = [
-            \ { 'c': '~/.config/i3/config' },
             \ { 'i': '~/.config/nvim/init.vim' },
             \ { 's': '~/.config/nvim/plug-config/start-screen.vim' },
             \ { 'z': '~/.zshrc' },
-            \ { 'd': '~/Desktop/vuejs' }
+            \ { 't': '~/Documentos/elxpro/fase1/telefonia' },
+            \ { 'c': '~/Documentos/elxpro/fase1/exercicios/carros' },
+            \ { 'e': '~/Documentos/elxpro/fase1/exercicios/ecommerce' },
             \ ]
 
 

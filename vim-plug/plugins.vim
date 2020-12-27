@@ -49,9 +49,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
-    Plug 'christianchiarulli/nvcode.vim'
+    " Plug 'christianchiarulli/nvcode.vim'
     " Plug 'ChristianChiarulli/nv-code'
-    " Plug 'kyazdani42/blue-moon'
+    Plug 'kyazdani42/blue-moon'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
@@ -161,7 +161,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'flrnd/candid.vim'
     Plug 'KeitaNakamura/neodark.vim'
     Plug 'rainglow/vim'
-
+    Plug 'aurieh/discord.nvim', { 'do': ':UpdateRemotePlugins'}
   endif
 
 call plug#end()
