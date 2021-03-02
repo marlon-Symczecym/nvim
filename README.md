@@ -28,7 +28,7 @@
 ## Clone this repo into your config
 
 ```
-git clone https://https://github.com/marlon-Symczecym/nvim ~/.config/nvim
+git clone https://github.com/marlon-Symczecym/nvim ~/.config/nvim
 ```
 
 ## Install python & node support
