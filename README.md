@@ -1,5 +1,4 @@
 # Modelo pego do ChristianChiarulli
-```
 
 ## Install Neovim
 
